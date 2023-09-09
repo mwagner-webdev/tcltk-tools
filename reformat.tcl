@@ -1,3 +1,6 @@
+# From the Wiki with fixed syntax error
+# https://wiki.tcl-lang.org/page/Reformatting+Tcl+code+indentation
+
 proc reformat {tclcode {pad 4}} {
     set lines [split $tclcode \n]
     set out ""
